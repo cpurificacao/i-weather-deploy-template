@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "iweather",
-    "slug": "iweather",
+    "name": "i-weather",
+    "slug": "i-weather-deploy-template",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -26,6 +26,12 @@
     },
     "experiments": {
       "tsconfigPaths": true
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "eabc2910-7387-4601-8c1d-ed7ea28fc6f4"
+      }
+    },
+    "owner": "cpurificacao-org"
   }
 }
